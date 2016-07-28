@@ -6,7 +6,7 @@ describe("TorrentProject", () => {
 
   let torrentProjectAPI, data;
   before(() => {
-    torrentProjectAPI = new TorrentProjectAPI({debug: true});
+    torrentProjectAPI = new TorrentProjectAPI();
 
     data = {
       query: "ettv",
